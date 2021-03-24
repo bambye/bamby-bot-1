@@ -3478,7 +3478,7 @@ break
 case 'bot':
 case 'eren':
 case 'liz':
-cade 'no coro':
+case 'no coro':
 					if (args.length < 1) return reply(`Bot ${pushname}`)
 					teks = body.slice(5)
 					try { 
