@@ -329,10 +329,10 @@ Usa ${prefix}verify para verificarte y poder usar el bot.`
   Iv: 'Error en el link'
   },
   only: {
-    group: 'mmg este comando solo puede ser usado en grupos',
-    ownerG: 'mmg ste comando solo puede ser usado por el dueño del grupo',
-    ownerB: 'mmg este comando solo puede ser usado por el dueño del bot',
-    admin: 'mmg Debes de ser admin para este comando',
+    group: 'mmg no use ese comando si tu no singa',
+    ownerG: 'mmg tu no singas',
+    ownerB: 'mmg este comando solo los que singan pueden usar eso',
+    admin: 'mmg tienes que mamarselo a los admin',
     Badmin: 'mmg el bot debe ser admin para este comando',
     daftarB: `Hola, usa *${prefix}verify* para poder usar el bot`
   }
@@ -567,9 +567,9 @@ case '/menu':
 case '/help':
 case 'help':
 case 'menu':
-hasil = `        ────────────────
+hasil = `        ⌦⌦⌦⌦⌦⌦⌦⌦⌦⌦⌦⌦⌦
 Hola *${pushname}* usa este comando ${prefix}menu
-        ────────────────`
+        ⌦⌦⌦⌦⌦⌦⌦⌦⌦⌦⌦`
 reply(hasil)
         break
 }
@@ -585,7 +585,6 @@ text: `  ──꧁꯭𝐄𝐑𝐄𝐍-𝐉𝐄𝐀𝐆𝐄𝐑࿈〖𓆐〗࿐�
 ────────────────
 Hola *${pushname}* 
 ────────────────͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏
-────────────────
 〘 *BOT* 〙
 ‣ Prefijo:  *「 ${prefix} 」*
 ‣ Yo soy:꧁꯭𝐄𝐑𝐄𝐍-𝐉𝐄𝐀𝐆𝐄𝐑࿈〖𓆐〗࿐᪲🖤
@@ -601,7 +600,7 @@ Hola *${pushname}*
 _${Ig}_
 ────────────────
 ⌦⌧⌧⌧⌧⌧⌧⌧⌧⌧⌧⌧⌧⌧⌧⌧⌫
-┃──〘 ꧁꯭𝐄𝐑𝐄𝐍-𝐉𝐄𝐀𝐆𝐄𝐑࿈〖𓆐〗࿐᪲〙──
+ 〘 ꧁꯭𝐄𝐑𝐄𝐍-𝐉𝐄𝐀𝐆𝐄𝐑࿈〖𓆐〗࿐᪲〙
 ⌦⌧⌧⌧⌧⌧⌧⌧⌧⌧⌧⌧⌧⌧⌧⌧⌫
 ┠⊷️ *${prefix}Simi (Teks)*
 ┠⊷️ *${prefix}Identidad*
@@ -609,118 +608,73 @@ _${Ig}_
 ┠⊷️ *${prefix}Donasi*
 ┠⊷️ *${prefix}Ping*
 ⌦⌧⌧⌧⌧⌧⌧⌧⌧⌧⌧⌧⌧⌧⌧⌧⌫
-┃─────〘  *List menu* 〙─────
+          〘  *List menu* 〙
 *〘 GRUP 〙*
 ⌦⌧⌧⌧⌧⌧⌧⌧⌧⌧⌧⌧⌧⌧⌧⌧⌫
-┠⊷️ *${prefix}Listadmin*
-┠⊷️ *${prefix}Listonline*
-┠⊷️ *${prefix}Closegc*
-┃ _Cerrar grupo_
-┠⊷️ *${prefix}Opengc*
-┃ _Abrir grupo_
-┠⊷️ *${prefix}Promote*
-┃ _Dar admin_
-┠⊷️ *${prefix}Demote*
-┃ _Quitar admin_
-┠⊷️ *${prefix}Setname*
-┃ _Establecer nombre del grupo_
-┠⊷️ *${prefix}Setdesk*
-┃ _Establecer descripción del grupo_
-┠⊷️ *${prefix}Add*
-┃ _Añadir miembro_
-┠⊷️ *${prefix}Kick*
-┃ _Eliminar miembro_
-┠⊷️ *${prefix}Tagall*
-┃ _Mencionar a todos_
-┠⊷️ *${prefix}Linkgc*
-┃ _Link del grupo_
-┠⊷️ *${prefix}Leave*
-┃ _Eliminar bot_
-┠⊷️ *${prefix}Notif*
-┃ _Notificación a todos_
-┠⊷️ *${prefix}Welcome*
-┃ _On/off Bienvenida_
-┠⊷️ *${prefix}Delete*
-┃ _Eliminar mensaje del bot_
+⌦*${prefix}Listadmin*
+⌦*${prefix}Listonline*
+⌦*${prefix}Closegc*
+⌦*${prefix}Opengc*
+⌦*${prefix}Promote*
+⌦*${prefix}Demote*
+⌦*${prefix}Nombre de grupo*
+⌦*${prefix}Descripción de grupo*
+⌦*${prefix}Add*
+⌦*${prefix}Kick*
+⌦*${prefix}Tagall*
+⌦*${prefix}Linkgc*
+⌦*${prefix}Leave*
+⌦*${prefix}Notif*
+⌦*${prefix}Bienvenida*
+⌦*${prefix}Delete*
 ⌦⌧⌧⌧⌧⌧⌧⌧⌧⌧⌧⌧⌧⌧⌧⌧⌫
 *〘 FUN 〙*
 ⌦⌧⌧⌧⌧⌧⌧⌧⌧⌧⌧⌧⌧⌧⌧⌧⌫
-┠⊷️ *${prefix}Alay (Texto)*
-┃ _Font Alay_
-┠⊷️ *${prefix}Alay2 (Texto)*
-┃ _Font Alay_
-┠⊷️ *${prefix}Reverse (Texto)*
-┃ _Escribir al reves_
-┠⊷️ *${prefix}Hilih (Texto)*
-┃ _Cambiar vocales por la i_
-┠⊷️ *${prefix}Namae (Texto)*
-┃ _Nombre ninpushnameu_
-┠⊷️ *${prefix}Pantun*
-┃ _Poema al azar_
-┠⊷️ *${prefix}Bucin*
-┃ _Expreción al azar_
-┠⊷️ *${prefix}Bijak*
-┃ _Palabras de motivasión_
-┠⊷️ *${prefix}Chatprank (Texto1/Texto2)*
-┃ _Juntar palabras o fraces_
-┠⊷️ *${prefix}Itsme*
-┃ _Tu perfil_
-┠⊷️ *${prefix}Fml*
-┃ _Historias de vida_
-┠⊷️ *${prefix}Asupan*
-┃ _Cronologia_
-┠⊷️ *${prefix}Tagme*
-┃ _Mencionarte_
-┠⊷️ *${prefix}Fitnah (Menciona a la persona|texto1|texto2)*
-┃ _Mensaje falso de una persona_
+⌦ *${prefix}Alay (Texto)*
+⌦ *${prefix}Alay2 (Texto)*
+⌦ *${prefix}Reverse (Texto)*
+⌦ *${prefix}Hilih (Texto)*
+⌦ *${prefix}Namae (Texto)*
+⌦ *${prefix}Poema*
+⌦ *${prefix}Bucin*
+⌦ *${prefix}Bijak*
+⌦ *${prefix}Chatprank (Texto1/Texto2)*
+⌦ *${prefix}Itsme*
+⌦ *${prefix}Fml*
+⌦ *${prefix}Cronologia*
+⌦ *${prefix}Tagme*
+⌦ *${prefix}Fitnah (Menciona a la persona|texto1|texto2)*
 ⌦⌧⌧⌧⌧⌧⌧⌧⌧⌧⌧⌧⌧⌧⌧⌧⌫
 *〘 MEDIA 〙*
 ⌦⌧⌧⌧⌧⌧⌧⌧⌧⌧⌧⌧⌧⌧⌧⌧⌫
-┠⊷️ *${prefix}listvn*
-┃ _Lista de sonidos_
-┠⊷️ *${prefix}listimg*
-┃ _Lista de fotos_
-┠⊷️ *${prefix}liststik*
-┃ _Lista de sticker_
-┠⊷️ *${prefix}listvid*
-┃ _Lista de videos_
+⌦ *${prefix}listvn*
+⌦ *${prefix}listimg*
+⌦ *${prefix}liststik*
+⌦ *${prefix}listvid*
 ⌦⌧⌧⌧⌧⌧⌧⌧⌧⌧⌧⌧⌧⌧⌧⌧⌫
 *〘 EDITING 〙*
 ⌦⌧⌧⌧⌧⌧⌧⌧⌧⌧⌧⌧⌧⌧⌧⌧⌫
-┠⊷️ *${prefix}Gtav (Foto)*
-┃ _Convierte foto al estilo Gtav_
-┠⊷️ *${prefix}Wanted (Foto)*
-┃ _Convierte foto al estilo wanted_
-┠⊷️ *${prefix}Drawing (Foto)*
-┃ _Convierte foto a dibujo_
+⌦ *${prefix}Gtav (Foto)*
+⌦ *${prefix}Wanted (Foto)*
+⌦ *${prefix}Drawing (Foto)*
 ⌦⌧⌧⌧⌧⌧⌧⌧⌧⌧⌧⌧⌧⌧⌧⌧⌫
 *〘 ANIME 〙*
 ⌦⌧⌧⌧⌧⌧⌧⌧⌧⌧⌧⌧⌧⌧⌧⌧⌫
-┠⊷️ *${prefix}Kusonime (Nombre)*
-┃ _Información de animes_
-┠⊷️ *${prefix}Neonime (Nombre)*
-┃ _Información de neoanimes_
-┠⊷️ *${prefix}Charnime (Nombre)*
-┃ _Personajes de anime_
-┠⊷️ *${prefix}Wait*
-┃ _Busca información de una imagen de anime_
-┠⊷️ *${prefix}Anime*
-┃ _Imagen aleatoria de anime_
-┠⊷️ *${prefix}Loli*
-┃ _Imagen aleatoria de loli_
-┠⊷️ *${prefix}Neko*
-┃ _Imagen aleatoria de neko_
+⌦ *${prefix}Kusonime (Nombre)*
+⌦ *${prefix}Neonime (Nombre)*
+⌦ *${prefix}Charnime (Nombre)*
+⌦ *${prefix}Wait*
+⌦ *${prefix}Anime*
+⌦ *${prefix}Loli*
+⌦ *${prefix}Neko*
 ⌦⌧⌧⌧⌧⌧⌧⌧⌧⌧⌧⌧⌧⌧⌧⌧⌫
 *〘 GAME 〙*
 ⌦⌧⌧⌧⌧⌧⌧⌧⌧⌧⌧⌧⌧⌧⌧⌧⌫
-┠⊷️ *${prefix}Tebakgambar*
-┃ _Adivinanza de imagen_
+┠⊷️ *${prefix}Adivinanza de imagen*
 ┠⊷️ *${prefix}Caklontong*
-┃ _Quiz aleatorio_
 ┠⊷️ *${prefix}Seberapagay (Nombre)*
-┃ _Porcentaje de gay_
 ┠⊷️ *${prefix}Seberapabucin (Nombre)*
-┃ _Porcentaje de bucin_
+
 ⌦⌧⌧⌧⌧⌧⌧⌧⌧⌧⌧⌧⌧⌧⌧⌧⌫
 *〘 TOD 〙*
 ⌦⌧⌧⌧⌧⌧⌧⌧⌧⌧⌧⌧⌧⌧⌧⌧⌫
@@ -739,20 +693,13 @@ _${Ig}_
 *〘 TOOLS 〙*
 ⌦⌧⌧⌧⌧⌧⌧⌧⌧⌧⌧⌧⌧⌧⌧⌧⌫
 ┠⊷️ *${prefix}Tomp3*
-┃ _Audio de video_
 ┠⊷️ *${prefix}Play (Nombre)*
-┃ _Canciones_
 ┠⊷️ *${prefix}Tts (Texto)*
-┃ _Texto a sonido_
 ┠⊷️ *${prefix}Igstalk (username)*
-┃ _Perfil de ig_
 ┠⊷️ *${prefix}Timer (Hora)*
 ┠⊷️ *${prefix}Wame*
-┃ _Link de wa.me_
 ┠⊷️ *${prefix}Nulis (Texto)*
-┃ _Texto en cuaderno_
 ┠⊷️ *${prefix}Ocr*
-┃ _Texto en imagen_
 ┠⊷️ *${prefix}Wait*
 ⌦⌧⌧⌧⌧⌧⌧⌧⌧⌧⌧⌧⌧⌧⌧⌧⌫
 *〘 TEXT0 〙*
@@ -763,122 +710,73 @@ _${Ig}_
 *〘 TEXTO2 〙*
 ⌦⌧⌧⌧⌧⌧⌧⌧⌧⌧⌧⌧⌧⌧⌧⌧⌫
 ┠⊷️ *${prefix}Ephoto list*
-┃ _Lista de ephoto_
 ┠⊷️ *${prefix}Ephoto (code + Texto)*
-┃ _Ex : ${prefix}Ephoto 25 Mr.pato_
 ┠⊷️ *${prefix}Textpro list*
-┃ _Lista de textpro
 ┠⊷️ *${prefix}Textpro (code + Texto)*
-┃ _Ex : ${prefix}Textpro 55 Mr.pato_
 ⌦⌧⌧⌧⌧⌧⌧⌧⌧⌧⌧⌧⌧⌧⌧⌧⌫
 *〘 IMAGENES 〙*
 ⌦⌧⌧⌧⌧⌧⌧⌧⌧⌧⌧⌧⌧⌧⌧⌧⌫
 ┠⊷️ *${prefix}Cogan*
-┃ _Foto aleatoria de un hombre_
 ┠⊷️ *${prefix}Cecan*
-┃ _Foto aleatoria de una mujer_
 ┠⊷️ *${prefix}Meme*
-┃ _Meme aleatorio_
 ┠⊷️ *${prefix}Twit*
-┃ _Twit aleatorio_
 ┠⊷️ *${prefix}Quotes*
-┃ _Imagen de quotes_
 ┠⊷️ *${prefix}Wp*
-┃ _Imagen aleatoria_
 ┠⊷️ *${prefix}Cyberpunk*
-┃ _Imagen cyberpunk aleatoria_
 ┠⊷️ *${prefix}Img (texto)*
-┃ _Imagen_
 ┠⊷️ *${prefix}Google (Texto)*
-┃ _Buscar cosas en google_
 ⌦⌧⌧⌧⌧⌧⌧⌧⌧⌧⌧⌧⌧⌧⌧⌧⌫
 *〘 EDUCACIÓN 〙*
 ⌦⌧⌧⌧⌧⌧⌧⌧⌧⌧⌧⌧⌧⌧⌧⌧⌫
 ┠⊷️ *${prefix}Brainly (Pregunta)*
-┃ _Buscar cosas_
 ┠⊷️ *${prefix}Wiki (Pregunta)*
-┃ _Buscar cosas_
 ┠⊷️ *${prefix}Kbbi (Pregunta)*
-┃ _Diccionario_
 ┠⊷️ *${prefix}Tl (Texto/code)*
-┃ _Traducir_
 ┠⊷️ *${prefix}Fakta*
-┃ _Frase_
 ┠⊷️ *${prefix}Kodebahasa*
-┃ _Codigo de idioma_
 ┠⊷️ *${prefix}Kodenegara*
-┃ _Codigo de país_
 ⌦⌧⌧⌧⌧⌧⌧⌧⌧⌧⌧⌧⌧⌧⌧⌧⌫
 *〘 OTRO 〙*
 ⌦⌧⌧⌧⌧⌧⌧⌧⌧⌧⌧⌧⌧⌧⌧⌧⌫
 ┠⊷️ *${prefix}Lirik (Nombre)*
-┃ _Letra de canciones_
 ┠⊷️ *${prefix}Chord (Nombre)*
-┃ _Acordes de canciones_
 ┠⊷️ *${prefix}Jadwaltvnow*
-┃ _Horario de tv_
 ┠⊷️ *${prefix}Map (Area)*
-┃ _Un mapa_
 ┠⊷️ *${prefix}Trendtwit*
-┃ _Tendencias de twiter_
-┠⊷️ *${prefix}Beritahoax*
-┃ _Noticias falsas_
-┠⊷️ *${prefix}Gplaystore*
-┃ _Busqueda en playstore_
+┠⊷️ *${prefix}Busqueda en playstore*
 ⌦⌧⌧⌧⌧⌧⌧⌧⌧⌧⌧⌧⌧⌧⌧⌧⌫
 *〘 HORÓSCOPO 〙*
 ⌦⌧⌧⌧⌧⌧⌧⌧⌧⌧⌧⌧⌧⌧⌧⌧⌫
-┠⊷️ *${prefix}Arti (Nombre)*
-┃ _Significado de tu nombre_
-┠⊷️ *${prefix}Couple (Nombre & Nombre)*
-┃ _Coincidencias de nombre_
+┠⊷️ *${prefix}Significado de mi nombre (Nombre)*
+┠⊷️ *${prefix} Coincidencia (Nombre & Nombre)*
 ┠⊷️ *${prefix}Jadian (Escribir fecha)*
-┃ _Caracteristicas de usuario_
 ┠⊷️ *${prefix}Weton (Escribir fecha)*
-┃ _Información de fecha_
-┠⊷️ *${prefix}Zodiak (Texto)*
-┃ _Signo zodiaco_
-┠⊷️ *${prefix}Artimimpi (Texto)*
-┃ _Significado de tus sueños_
+┠⊷️ *${prefix}Zodiaco (Texto)*
+┠⊷️ *${prefix} Significado de mis sueños (Texto)*
 ⌦⌧⌧⌧⌧⌧⌧⌧⌧⌧⌧⌧⌧⌧⌧⌧⌫
 *〘 TIEMPO 〙*
 ⌦⌧⌧⌧⌧⌧⌧⌧⌧⌧⌧⌧⌧⌧⌧⌧⌫
 ┠⊷️ *${prefix}Cuaca (Área)*
-┃ _Información meteorológica_
 ┠⊷️ *${prefix}Infogempa*
-┃ _Información de terremotos recientes_
 ⌦⌧⌧⌧⌧⌧⌧⌧⌧⌧⌧⌧⌧⌧⌧⌧⌫
 *〘 DESCARGAS 〙*
 ⌦⌧⌧⌧⌧⌧⌧⌧⌧⌧⌧⌧⌧⌧⌧⌧⌫
 ┠⊷️ *${prefix}Ytmp3 (Link)*
-┃ _Descargar audios de YT, es mejor con play_
 ┠⊷️ *${prefix}Ytmp4 (Link)*
-┃ _Descargar video de YT_
 ┠⊷️ *${prefix}Fb (Link)*
-┃ _Descargar de FB_
 ┠⊷️ *${prefix}Ig (Link)*
-┃ _Descargar de IG_
 ┠⊷️ *${prefix}Scdl (Link)*
-┃ _Descargador de Soundcloud_
 ┠⊷️ *${prefix}Tik (Link)*
-┃ _Descargar Tiktok_
 ┠⊷️ *${prefix}Pin (Link)*
-┃ _Descargar Pinterest_
 ┠⊷️ *${prefix}Joox (Canción)
-┃ _Descargar canciones_
 ⌦⌧⌧⌧⌧⌧⌧⌧⌧⌧⌧⌧⌧⌧⌧⌧⌫
 *〘 OWNER 〙*
 ⌦⌧⌧⌧⌧⌧⌧⌧⌧⌧⌧⌧⌧⌧⌧⌧⌫
-┠⊷️ *${prefix}Clone*
-┃ _Clonacion de perfil_
-┠⊷️ *${prefix}Block*
-┃ _Bloquear_
-┠⊷️ *${prefix}Unblock*
-┃ _Desbloquear_
-┠⊷️ *${prefix}Bc*
-┃ _Anuncio_
-┠⊷️ *${prefix}Blocklist*
-┃ _Lista de usuarios bloqueados_
+⌦ *${prefix}Clone*
+⌦ *${prefix}Block*
+⌦ *${prefix}Unblock*
+⌦ *${prefix}Bc*
+⌦ *${prefix}Blocklist*
 ⌦⌧⌧⌧⌧⌧⌧⌧⌧⌧⌧⌧⌧⌧⌧⌧⌫`,
 
 contextInfo: {
@@ -1013,6 +911,8 @@ break
 
 //--arti nama
 case 'arti':
+case 'significado de mi nombre':
+case 'snm':
 if (args.length < 1) return reply('*☒* Masukan teks')
 Lxa.updatePresence(from, Presence.composing)
 if (!isRegister) return reply(mess.only.daftarB)
@@ -1029,6 +929,8 @@ break
 
 //---couple pasangan
 case 'couple':
+case 'coincidensia':
+case 'ccd':
 Lxa.updatePresence(from, Presence.composing)
 if (!isRegister) return reply(mess.only.daftarB)
 if (!q.includes(' & ')) return  reply('Formato de texto incorrecto')
@@ -1053,6 +955,7 @@ break
 
 //---Zodiak harian
 case 'zodiak':
+case 'zodiaco':
 if (args.length < 1) return reply('Ingresa el signo zodiaco')
 Lxa.updatePresence(from, Presence.composing)
 if (!isRegister) return reply(mess.only.daftarB)
@@ -1093,6 +996,7 @@ break
 
 //--Pencarian pinterest
 case 'pinterest':
+case 'imagen'
 tels = body.slice(11)
 if (!isRegister) return reply(mess.only.daftarB)
 
@@ -1116,6 +1020,7 @@ Lxa.sendMessage(from, pok, image, {
 break
 
 case 'listonline':
+case 'online':
         		let ido = args && /\d+\-\d+@g.us/.test(args[0]) ? args[0] : from
 			    let online = [...Object.keys(Lxa.chats.get(ido).presences), Lxa.user.jid]
 			    Lxa.sendMessage(from, 'List Online:\n' + online.map(v => '- @' + v.replace(/@.+/, '')).join`\n`, text, { quoted: mek,
@@ -1205,6 +1110,7 @@ break
   //
   case 'anime':
   case 'yaoi':
+  case 'jeager':
 if (!isRegister) return reply(mess.only.daftarB)
 
 Lxa.updatePresence(from, Presence.composing)
@@ -1388,6 +1294,7 @@ quoted: mek
 
 
 case 'asupan':
+case 'cronologia':
   
 if (!isRegister) return reply(mess.only.daftarB)
 try {
@@ -1511,6 +1418,7 @@ break
 
 
 case 'gplaystore':
+case 'Busqueda en playstore':
 Lxa.updatePresence(from, Presence.composing)
 if (!isRegister) return reply(mess.only.daftarB)
 
@@ -1546,6 +1454,7 @@ reply(data.result)
 break
 
 case 'pantun':
+case 'poema':
 
 Lxa.updatePresence(from, Presence.composing)
 if (!isRegister) return reply(mess.only.daftarB)
@@ -2076,6 +1985,7 @@ break
 
 //---Ganti nama grup
   case 'setname':
+  case 'nombre del grupo':
 if (!isGroup) return reply(mess.only.group)
 if (!isGroupAdmins) return reply(mess.only.admin)
 if (!isBotGroupAdmins) return reply(mess.only.Badmin)
@@ -2088,6 +1998,7 @@ break
 
 //--ganti desk
   case 'setdesk':
+  case 'descripcion de grupo':
 if (!isGroup) return reply(mess.only.group)
 if (!isGroupAdmins) return reply(mess.only.admin)
 if (!isBotGroupAdmins) return reply(mess.only.Badmin)
@@ -3136,7 +3047,7 @@ duh = await Lxa.downloadAndSaveMediaMessage(mitri)
 ran = getRandom('.mp4')
 exec(`ffmpeg -i ${duh} ${ran}`, (err) => {
   fs.unlinkSync(duh)
-  if (err) return reply('No se pudo convertir a mp3')
+  if (err) return reply('Cuando tu singues te mando ek audios en mp3')
   buffer = fs.readFileSync(ran)
   Lxa.sendMessage(from, buffer, audio, {
 mimetype: 'audio/mp4', quoted: mek
@@ -3158,6 +3069,7 @@ break
 
 //--Tebak gambar
   case 'tebakgambar':
+  case 'Adivinanza de imagen':
 
 anu = await fetchJson(`https://api.vhtear.com/tebakgambar&apikey=${vKey}`, {
   method: 'get'
@@ -3283,6 +3195,7 @@ case 'unblock':
 
 
 				case 'ttp':
+				case 'audio':
 				if (!isRegister) return reply(mess.only.daftarB)
 					if (args.length < 1) return reply('Escribe el texto')
 					ranp = getRandom('.png')
@@ -3315,7 +3228,7 @@ for (let mem of groupMembers) {
   teks += `┃ @${mem.jid.split('@')[0]}\n`
   members_id.push(mem.jid)
 }
-mentions('〘  *TAGALL* 〙\n┏━━━━━━━━━━━━━━━━━━━━\n┠⊷'+teks+'┃━━━━━━━━━━━━━━━━━━━━\n┃────꧁꯭𝐄𝐑𝐄𝐍-𝐉𝐄𝐀𝐆𝐄𝐑࿈〖𓆐〗࿐᪲🖤────\n┗━━━━━━━━━━━━━━━━━━━━', members_id, true)
+mentions('〘  *EREN TE LLAMA* 〙\n┏━━━━━━━━━━━━━━━━━━━━\n┠⊷'+teks+'┃━━━━━━━━━━━━━━━━━━━━\n┃────꧁꯭𝐄𝐑𝐄𝐍-𝐉𝐄𝐀𝐆𝐄𝐑࿈〖𓆐〗࿐᪲🖤────\n┗━━━━━━━━━━━━━━━━━━━━', members_id, true)
 break
 
 
@@ -3429,6 +3342,7 @@ break
 
 //--mengeluarkan member
 				case 'kick':
+				case 'elimina':
 					if (!isGroup) return reply(mess.only.group)
 					if (!isGroupAdmins) return reply(mess.only.admin)
 					if (!isBotGroupAdmins) return reply(mess.only.Badmin)
@@ -3493,6 +3407,7 @@ reply(ind.satukos())
 //--Mengambil link grup
     case 'linkgroup':
     case 'linkgc':
+    case 'link del grupo':
         if (!isGroup) return reply(mess.only.group)
         if (!isGroupAdmins) return reply(mess.only.admin)
         if (!isBotGroupAdmins) return reply(mess.only.Badmin)
@@ -3512,6 +3427,7 @@ reply(ind.satukos())
 
 //--Convert stiker to image
 				case 'toimg':
+				case 'photo':
 					if (!isQuotedSticker) return reply('Responde sticker')
 					if (!isRegister) return reply(mess.only.daftarB)
 					reply(mess.wait)
@@ -3530,6 +3446,8 @@ reply(ind.satukos())
 
 //--arti mimpi
   case 'artimimpi':
+  case 'signicado de mis sueños':
+  case 'sdms':
 aruga = body.slice(11)
 if (!isRegister) return reply(mess.only.daftarB)
 if (args.length < 1) return reply(`Que sueño es ?\nEjemplo: ${prefix}artimimpi`)
@@ -3559,6 +3477,8 @@ break
 
 case 'bot':
 case 'eren':
+case 'liz':
+cade 'no coro':
 					if (args.length < 1) return reply(`Bot ${pushname}`)
 					teks = body.slice(5)
 					try { 
@@ -3574,6 +3494,8 @@ case 'eren':
 case 'verify':
 case 'daftar':
   case 'register':
+  case 'Jeager':
+  case 'v':
 if (isRegister) return reply('Tu cuenta ya estaba verificada')
 const namaUser = `${pushname}`
 const umurUser = `${sender}`
@@ -3581,7 +3503,7 @@ const serialUser = createSerial(20)
 veri = sender
 if (isGroup) {
   addRegisteredUser(sender, namaUser, umurUser, time, serialUser)
-  hasil = `〘  *Vericación* 〙
+  hasil = `〘  *Ya mo me jodas* 〙
 Código : *${serialUser}*
 ╔════════════════════
 ╠≽️ *Nombre* : *${namaUser}*
@@ -3591,7 +3513,7 @@ reply(hasil)
   console.log(color('[REGISTER]'), color(time, 'yellow'), 'Name:', color(namaUser, 'cyan'), 'Age:', color(umurUser, 'cyan'), 'Serial:', color(serialUser, 'cyan'), 'in', color(sender || groupName))
 } else {
   addRegisteredUser(sender, namaUser, umurUser, time, serialUser)
-  hasil = `〘  *Verificación* 〙
+  hasil = `〘  *Ya no me jodas mmg* 〙
 Código : *${serialUser}*
 ╔════════════════════
 ╠≽️ *Nombre* : *${namaUser}*
@@ -3643,6 +3565,7 @@ break
 //---mengahapus pesan bot
 case 'delete':
   case 'del':
+  case 'elimina':
 if (!isGroup)return reply(mess.only.group)
 if (!isRegister) return reply(mess.only.daftarB)
 if (!isGroupAdmins)return reply(mess.only.admin)
@@ -3714,6 +3637,7 @@ break
 
 
 				case 'welcome':
+				case 'bienvenida':
 					if (!isGroup) return reply(mess.only.group)
 					if (!isGroupAdmins) return reply(mess.only.admin)
 					if (args.length < 1) return reply('Hmmmm')
