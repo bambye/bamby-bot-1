@@ -996,7 +996,7 @@ break
 
 //--Pencarian pinterest
 case 'pinterest':
-case 'imagen'
+case 'imagen':
 tels = body.slice(11)
 if (!isRegister) return reply(mess.only.daftarB)
 
