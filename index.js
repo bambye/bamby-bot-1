@@ -270,14 +270,14 @@ async function starts() {
 Bienvenid@ a 
 *${mdata.subject}*
 ────────────────
-┏━━━━━━━━━━━━━━━━━━━━
-┃──────〘  *Intro* 〙───────
-┃━━━━━━━━━━━━━━━━━━━━
+🜲🜽🜽🜽🜽🜽🜽🜽🜽🜽🜽🜽🜽🜽🜽🜽🜲
+                          *Intro* 
+🜲🜽🜽🜽🜽🜽🜽🜽🜽🜽🜽🜽🜽🜽🜽🜽🜲
 ┠⊷️ *Nombre* :
 ┠⊷️ *Edad* :
 ┠⊷️ *Lugar de nacimiento* :
 ┠⊷️ *Género* :
-┗━━━━━━━━━━━━━━━━━━━━
+🜲🜽🜽🜽🜽🜽🜽🜽🜽🜽🜽🜽🜽🜽🜽🜽🜲
 
 Usa ${prefix}verify para verificarte y poder usar el bot.`
 				Lxa.sendMessage(mdata.id, teks, MessageType.text, { contextInfo: {"mentionedJid": [num]}})
@@ -553,7 +553,7 @@ switch(is) {
   case 'eren':
   case 'liz':
   case 'willianny':
-buf = fs.readFileSync(`./temp/audio/onichan.mp3`)
+buf = fs.readFileSync(`./temp/audio/ara.mp3`)
 Lxa.sendMessage(from, buf, audio, {
   mimetype: 'audio/mp4', quoted: mek, ptt: true
 })
@@ -867,13 +867,13 @@ case 'ceksaldo':
   me = Lxa.user
   uptime = process.uptime()
   teks = `*‣ Nombre del bot* : ${me.name}
-  ‣ *Número del bot* : @${me.jid.split('@')[0]}
-  ‣ *Dueño* : eren jeager
-  ‣ *Prefijo* : ${prefix}
-  ‣ *Usuarios bloqueados* : ${blocked.length}
-  ‣ *Tiempo activo* : ${kyun(uptime)}
-  ‣ *Total de usuarios* : ${_registered.length} Usuarios
-  ‣ *Total de chats* : ${totalchat.length}`
+  🜲 *Número del bot* : @${me.jid.split('@')[0]}
+  🜲 *Dueño* : eren jeager
+  🜲 *Prefijo* : ${prefix}
+  🜲 *Usuarios bloqueados* : ${blocked.length}
+  🜲 *Tiempo activo* : ${kyun(uptime)}
+  🜲 *Total de usuarios* : ${_registered.length} Usuarios
+  🜲 *Total de chats* : ${totalchat.length}`
   buffer = await getBuffer(me.imgUrl)
   Lxa.sendMessage(from, buffer, image, {
 caption: teks, contextInfo: {
@@ -1639,7 +1639,7 @@ case 'triggered':
                                         })
                                     
                                              } else {
-                                                 reply('Gunakan foto!')
+                                                 reply('Cuando singues te la mando 😘')
                                           }
                                              break
 
@@ -1682,7 +1682,7 @@ fs.unlinkSync(rano)
   })
 
 } else {
-  reply('Manda la foto')
+  reply('Manda la foto singa vieja')
 }
 break
 
@@ -1698,7 +1698,7 @@ if ((isMedia && !mek.message.videoMessage || isQuotedImage) && args.length == 0)
   hehe = await getBuffer(`https://videfikri.com/api/textmaker/pencil/?urlgbr=${anu.display_url}`)
  Lxa.sendMessage(from, hehe, image, {quoted:mek})
 } else {
-  reply('Manda la foto')
+  reply('Manda la foto singa vieja')
 }
 break
 
@@ -1715,7 +1715,7 @@ if ((isMedia && !mek.message.videoMessage || isQuotedImage) && args.length == 0)
   hehe = await getBuffer(`https://videfikri.com/api/textmaker/wanted/?urlgbr=${anu.display_url}&text1=Dicari&text2=${tels}`)
  Lxa.sendMessage(from, hehe, image, {quoted:mek})
 } else {
-  reply('Manda la foto')
+  reply('Manda la foto singa vieja ')
 }
 break
 
@@ -2709,7 +2709,7 @@ mimetype: 'video/mp4', filename: `${anu.nameInfo}.mp4`, quoted: mek
 							})
 							.on('end', function () {
 								console.log('Finish')
-								exec(`webpmux -set exif ${addMetadata('Lexa', 'Mrf.zvx')} ${ran} -o ${ran}`, async (error) => {
+								exec(`webpmux -set exif ${addMetadata('⎙⃢⃠𝐸𝑅𝐸𝑁-𝐽𝐸𝐴𝐺𝐸𝑅⎙⃢⃠', '⎙⃢⃠𝐸𝑅𝐸𝑁-𝐽𝐸𝐴𝐺𝐸𝑅⎙⃢⃠')} ${ran} -o ${ran}`, async (error) => {
 									if (error) return reply(mess.error.stick)
 									Lxa.sendMessage(from, fs.readFileSync(ran), sticker, {quoted: mek})
 									fs.unlinkSync(media)	
@@ -2736,11 +2736,11 @@ mimetype: 'video/mp4', filename: `${anu.nameInfo}.mp4`, quoted: mek
 								console.log(`Error : ${err}`)
 								fs.unlinkSync(media)
 								tipe = media.endsWith('.mp4') ? 'video' : 'gif'
-								reply(`❌ Gagal, pada saat mengkonversi ${tipe} ke stiker`)
+								reply(`Poniedo huevo otra vez deja eso${tipe} ke stiker`)
 							})
 							.on('end', function () {
 								console.log('Finish')
-								exec(`webpmux -set exif ${addMetadata('Lexa', 'Mrf.zvx')} ${ran} -o ${ran}`, async (error) => {
+								exec(`webpmux -set exif ${addMetadata('⎙⃢⃠𝐸𝑅𝐸𝑁-𝐽𝐸𝐴𝐺𝐸𝑅⎙⃢⃠', '⎙⃢⃠𝐸𝑅𝐸𝑁-𝐽𝐸𝐴𝐺𝐸𝑅⎙⃢⃠')} ${ran} -o ${ran}`, async (error) => {
 									if (error) return reply(mess.error.stick)
 									Lxa.sendMessage(from, fs.readFileSync(ran), sticker, {quoted: mek})
 									fs.unlinkSync(media)
@@ -2764,12 +2764,12 @@ mimetype: 'video/mp4', filename: `${anu.nameInfo}.mp4`, quoted: mek
 							fs.unlinkSync(media)
 							let buffer = Buffer.from(res.base64img, 'base64')
 							fs.writeFileSync(ranp, buffer, (err) => {
-								if (err) return reply('Gagal, Terjadi kesalahan, silahkan coba beberapa saat lagi.')
+								if (err) return reply('deja de estar poniendo huevo haciendo errores mmg.')
 							})
 							exec(`ffmpeg -i ${ranp} -vcodec libwebp -filter:v fps=fps=20 -lossless 1 -loop 0 -preset default -an -vsync 0 -s 512:512 ${ranw}`, (err) => {
 								fs.unlinkSync(ranp)
 								if (err) return reply(mess.error.stick)
-								exec(`webpmux -set exif ${addMetadata('Lexa', 'Mrf.zvx')} ${ranw} -o ${ranw}`, async (error) => {
+								exec(`webpmux -set exif ${addMetadata('⎙⃢⃠𝐸𝑅𝐸𝑁-𝐽𝐸𝐴𝐺𝐸𝑅⎙⃢⃠', '⎙⃢⃠𝐸𝑅𝐸𝑁-𝐽𝐸𝐴𝐺𝐸𝑅⎙⃢⃠')} ${ranw} -o ${ranw}`, async (error) => {
 									if (error) return reply(mess.error.stick)
 									Lxa.sendMessage(from, fs.readFileSync(ranw), sticker, {quoted: mek})
 									fs.unlinkSync(ranw)
@@ -2799,7 +2799,7 @@ mimetype: 'video/mp4', filename: `${anu.nameInfo}.mp4`, quoted: mek
 							.toFormat('webp')
 							.save(ran)*/
 					} else {
-						reply(`Kirim gambar dengan caption ${prefix}sticker atau tag gambar yang sudah dikirim`)
+						reply(`Manda una foto von el subtitulo bien azaroso ${prefix}Etiqueta la foto`)
 					}
 					break
 
@@ -3047,7 +3047,7 @@ duh = await Lxa.downloadAndSaveMediaMessage(mitri)
 ran = getRandom('.mp4')
 exec(`ffmpeg -i ${duh} ${ran}`, (err) => {
   fs.unlinkSync(duh)
-  if (err) return reply('Cuando tu singues te mando ek audios en mp3')
+  if (err) return reply('Cuando tu singues te mando el audios en mp3')
   buffer = fs.readFileSync(ran)
   Lxa.sendMessage(from, buffer, audio, {
 mimetype: 'audio/mp4', quoted: mek
@@ -3102,6 +3102,7 @@ break
 
 //--google voice
 				case 'tts':
+				case 'audio':
 					if (args.length < 1) return Lxa.sendMessage(from, 'Escribe el código', text, {quoted: mek})
 					const gtts = require('./lib/gtts')(args[0])
 					if (args.length < 2) return Lxa.sendMessage(from, 'Escribe el texto', text, {quoted: mek})
@@ -3158,7 +3159,7 @@ case 'unblock':
 
 				case 'tiktokstalk':
 					try {
-						if (args.length < 1) return Lxa.sendMessage(from, 'Escribe el nombre de usuario', text, {quoted: mek})
+						if (args.length < 1) return Lxa.sendMessage(from, 'Escribe lo que quieres mmg', text, {quoted: mek})
 						let { user, stats } = await tiktod.getUserProfileInfo(args[0])
 						reply(mess.wait)
 						teks = `*ID* : ${user.id}\n*Username* : ${user.uniqueId}\n*Nickname* : ${user.nickname}\n*Followers* : ${stats.followerCount}\n*Followings* : ${stats.followingCount}\n*Posts* : ${stats.videoCount}\n*Luv* : ${stats.heart}\n`
@@ -3197,7 +3198,7 @@ case 'unblock':
 				case 'ttp':
 				case 'audio':
 				if (!isRegister) return reply(mess.only.daftarB)
-					if (args.length < 1) return reply('Escribe el texto')
+					if (args.length < 1) return reply('Escribe lo que quieres que te diga azaroso')
 					ranp = getRandom('.png')
 					rano = getRandom('.webp')
 					teks = body.slice(5).trim()
@@ -3228,7 +3229,7 @@ for (let mem of groupMembers) {
   teks += `┃ @${mem.jid.split('@')[0]}\n`
   members_id.push(mem.jid)
 }
-mentions('〘  *EREN TE LLAMA* 〙\n┏━━━━━━━━━━━━━━━━━━━━\n┠⊷'+teks+'┃━━━━━━━━━━━━━━━━━━━━\n┃────꧁꯭𝐄𝐑𝐄𝐍-𝐉𝐄𝐀𝐆𝐄𝐑࿈〖𓆐〗࿐᪲🖤────\n┗━━━━━━━━━━━━━━━━━━━━', members_id, true)
+mentions('〘  *EREN TE LLAMA* 〙\n🜲🜽🜽🜽🜽🜽🜽🜽🜽🜽🜽🜽🜽🜽🜽🜽\n┠⊷'+teks+'┃n🜲🜽🜽🜽🜽🜽🜽🜽🜽🜽🜽🜽🜽🜽🜽🜽🜲\n┃────꧁꯭𝐄𝐑𝐄𝐍-𝐉𝐄𝐀𝐆𝐄𝐑࿈〖𓆐〗࿐᪲🖤────\🜲🜽🜽🜽🜽🜽🜽🜽🜽🜽🜽🜽🜽🜽🜽🜽🜲`, members_id, true)
 break
 
 
@@ -3269,7 +3270,7 @@ break
 					if (mek.message.extendedTextMessage === undefined || mek.message.extendedTextMessage === null) return
 					mentioned = mek.message.extendedTextMessage.contextInfo.mentionedJid
 					if (mentioned.length > 1) {
-						teks = 'Con exito \n'
+						teks = 'Te puse admin porque lo mamas como lana rhoades 🕊️ \n'
 						for (let _ of mentioned) {
 							teks += `@${_.split('@')[0]}\n`
 						}
@@ -3312,7 +3313,7 @@ break
 					if (mek.message.extendedTextMessage === undefined || mek.message.extendedTextMessage === null) return
 					mentioned = mek.message.extendedTextMessage.contextInfo.mentionedJid
 					if (mentioned.length > 1) {
-						teks = 'Admin quitado con exito\n'
+						teks = 'Ya no eres afmin por mal parido\n'
 						for (let _ of mentioned) {
 							teks += `@${_.split('@')[0]}\n`
 						}
@@ -3336,20 +3337,20 @@ break
 						Lxa.groupAdd(from, [num])
 					} catch (e) {
 						console.log('Error :', e)
-						reply('No se pudo agregar al miembro probablemente este bloqueado por el bot')
+						reply('No se agrego al grupo porque no singa y aqui todos singamos')
 					}
 					break
 
 //--mengeluarkan member
 				case 'kick':
-				case 'elimina':
+				case 'saca':
 					if (!isGroup) return reply(mess.only.group)
 					if (!isGroupAdmins) return reply(mess.only.admin)
 					if (!isBotGroupAdmins) return reply(mess.only.Badmin)
 					if (mek.message.extendedTextMessage === undefined || mek.message.extendedTextMessage === null) return reply('Tag target')
 					mentioned = mek.message.extendedTextMessage.contextInfo.mentionedJid
 					if (mentioned.length > 1) {
-						teks = 'Orden recibida :\n'
+						teks = 'Lo hice porque me gusto como me lo mamaste 😃:\n'
 						for (let _ of mentioned) {
 							teks += `@${_.split('@')[0]}\n`
 						}
@@ -3458,7 +3459,7 @@ anu = await fetchJson(`https://videfikri.com/api/primbon/artimimpi/?mimpi=${arug
 reply(anu.result.artimimpi)
 
 } catch {
-  reply('Lo siento hubo un error')
+  reply('Cuando me lo mames te lo digo')
 }
 break
 
@@ -3479,6 +3480,7 @@ case 'bot':
 case 'eren':
 case 'liz':
 case 'no coro':
+case 'singas':
 					if (args.length < 1) return reply(`Bot ${pushname}`)
 					teks = body.slice(5)
 					try { 
@@ -3505,20 +3507,20 @@ if (isGroup) {
   addRegisteredUser(sender, namaUser, umurUser, time, serialUser)
   hasil = `〘  *Ya mo me jodas* 〙
 Código : *${serialUser}*
-╔════════════════════
-╠≽️ *Nombre* : *${namaUser}*
-╠≽️ *Número* : *${sender.split("@")[0]}*
-╚════════════════════`
+🜲🜽🜽🜽🜽🜽🜽🜽🜽🜽🜽🜽🜽🜽🜽🜽🜲
+🜲🜽 *Nombre* : *${namaUser}*
+🜲🜽 *Número* : *${sender.split("@")[0]}*
+🜲🜽🜽🜽🜽🜽🜽🜽🜽🜽🜽🜽🜽🜽🜽🜽🜲`
 reply(hasil)
   console.log(color('[REGISTER]'), color(time, 'yellow'), 'Name:', color(namaUser, 'cyan'), 'Age:', color(umurUser, 'cyan'), 'Serial:', color(serialUser, 'cyan'), 'in', color(sender || groupName))
 } else {
   addRegisteredUser(sender, namaUser, umurUser, time, serialUser)
   hasil = `〘  *Ya no me jodas mmg* 〙
 Código : *${serialUser}*
-╔════════════════════
+🜲🜽🜽🜽🜽🜽🜽🜽🜽🜽🜽🜽🜽🜽🜽🜽🜲
 ╠≽️ *Nombre* : *${namaUser}*
 ╠≽️ *Número* : *${sender.split("@")[0]}*
-╚════════════════════`
+🜲🜽🜽🜽🜽🜽🜽🜽🜽🜽🜽🜽🜽🜽🜽🜽🜲`
 reply(hasil)
   console.log(color('[REGISTER]'), color(time, 'yellow'), 'Name:', color(namaUser, 'cyan'), 'Age:', color(umurUser, 'cyan'), 'Serial:', color(serialUser, 'cyan'))
 }
@@ -3528,6 +3530,7 @@ break
 
 //--grup semua peserta
 case 'closegc':
+case 'cerrar':
   Lxa.updatePresence(from, Presence.composing)
   if (!isGroup) return reply(mess.only.group)
   if (!isGroupAdmins) return reply(mess.only.admin)
@@ -3574,7 +3577,7 @@ Lxa.deleteMessage(from, {
   id: mek.message.extendedTextMessage.contextInfo.stanzaId, remoteJid: from, fromMe: true
 })
 } catch {
-  reply('Solo puedo borrar mensajes míos')
+  reply('Deja de poner huevos azaroso')
 }
 break
 
@@ -3688,7 +3691,7 @@ break
 
 				default:
 				if (body.startsWith(`${prefix}${command}`)) {
-  reply(`        ────────────────\nHols *${pushname}* !!!\nEse comando no esta en mi lista : *${prefix}${command}*\nUsa esto para verlos*${prefix}Menu*\n        ────────────────`)
+  reply(`        🜲🜽🜽🜽🜽🜽🜽🜽🜽🜽🜽🜽🜽🜽🜽🜽🜲\nHols *${pushname}* !!!\nEse comando no esta en mi lista : *${prefix}${command}*\nUsa esto para verlos*${prefix}Menu*\n    🜲🜽🜽🜽🜽🜽🜽🜽🜽🜽🜽🜽🜽🜽🜽🜽🜲`)
 				}
 					if (isGroup && isSimi && budy != undefined) {
 						console.log(budy)
