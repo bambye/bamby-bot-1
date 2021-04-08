@@ -271,7 +271,7 @@ Bienvenid@ a
 *${mdata.subject}*
 ────────────────
 🜲🜽🜽🜽🜽🜽🜽🜽🜽🜽🜽🜽🜽🜽🜽🜽🜲
-                          *Intro* 
+te enseñe la info despues de mamarme el nepe
 🜲🜽🜽🜽🜽🜽🜽🜽🜽🜽🜽🜽🜽🜽🜽🜽🜲
 ┠⊷️ *Nombre* :
 ┠⊷️ *Edad* :
@@ -279,7 +279,7 @@ Bienvenid@ a
 ┠⊷️ *Género* :
 🜲🜽🜽🜽🜽🜽🜽🜽🜽🜽🜽🜽🜽🜽🜽🜽🜲
 
-Usa ${prefix}verify para verificarte y poder usar el bot.`
+Usa ${prefix}verify para registrate y mamarle el guebo a bamby 😼🍑`
 				Lxa.sendMessage(mdata.id, teks, MessageType.text, { contextInfo: {"mentionedJid": [num]}})
 			} else if (anu.action == 'remove') {
 				num = anu.participants[0]
@@ -553,7 +553,7 @@ switch(is) {
   case 'eren':
   case 'liz':
   case 'willianny':
-buf = fs.readFileSync(`./temp/audio/ara.mp3`)
+buf = fs.readFileSync(`./temp/audio/ErenJeager.mp3`)
 Lxa.sendMessage(from, buf, audio, {
   mimetype: 'audio/mp4', quoted: mek, ptt: true
 })
@@ -705,7 +705,7 @@ _${Ig}_
 *〘 TEXT0 〙*
 ⌦⌧⌧⌧⌧⌧⌧⌧⌧⌧⌧⌧⌧⌧⌧⌧⌫
 ┠⊷️ *${prefix}Tahta (Texto)*
-┃ _Ex : ${prefix}Tahta Mr.pato_
+┃ _Ex : ${prefix}Tahta Bamby:v_
 ⌦⌧⌧⌧⌧⌧⌧⌧⌧⌧⌧⌧⌧⌧⌧⌧⌫
 *〘 TEXTO2 〙*
 ⌦⌧⌧⌧⌧⌧⌧⌧⌧⌧⌧⌧⌧⌧⌧⌧⌫
@@ -724,7 +724,7 @@ _${Ig}_
 ┠⊷️ *${prefix}Wp*
 ┠⊷️ *${prefix}Cyberpunk*
 ┠⊷️ *${prefix}Img (texto)*
-┠⊷️ *${prefix}Google (Texto)*
+┠⊷️ *${prefix}Google (Texto)
 ⌦⌧⌧⌧⌧⌧⌧⌧⌧⌧⌧⌧⌧⌧⌧⌧⌫
 *〘 EDUCACIÓN 〙*
 ⌦⌧⌧⌧⌧⌧⌧⌧⌧⌧⌧⌧⌧⌧⌧⌧⌫
@@ -747,7 +747,7 @@ _${Ig}_
 ⌦⌧⌧⌧⌧⌧⌧⌧⌧⌧⌧⌧⌧⌧⌧⌧⌫
 *〘 HORÓSCOPO 〙*
 ⌦⌧⌧⌧⌧⌧⌧⌧⌧⌧⌧⌧⌧⌧⌧⌧⌫
-┠⊷️ *${prefix}Significado de mi nombre (Nombre)*
+┠⊷️ *${prefix}Arti [Significado de mi nombre] (Nombre)*
 ┠⊷️ *${prefix} Coincidencia (Nombre & Nombre)*
 ┠⊷️ *${prefix}Jadian (Escribir fecha)*
 ┠⊷️ *${prefix}Weton (Escribir fecha)*
@@ -911,7 +911,6 @@ break
 
 //--arti nama
 case 'arti':
-case 'significado de mi nombre':
 case 'snm':
 if (args.length < 1) return reply('*☒* Masukan teks')
 Lxa.updatePresence(from, Presence.composing)
@@ -1046,7 +1045,7 @@ n = JSON.parse(JSON.stringify(data));
 nimek = n[Math.floor(Math.random() * n.length)];
 pok = await getBuffer(nimek)
 Lxa.sendMessage(from, pok, image, {
-  quoted: mek, caption: `Mr.Pato-Bot`
+  quoted: mek, caption: `Bamby te domina`
 })
 
 } catch {
@@ -1070,7 +1069,7 @@ n = JSON.parse(JSON.stringify(data));
 nimek = n[Math.floor(Math.random() * n.length)];
 pok = await getBuffer(nimek)
 Lxa.sendMessage(from, pok, image, {
-  quoted: mek, caption: `Mr.Pato-Bot`
+  quoted: mek, caption: `Bamby te domina`
 })
 
 } catch {
@@ -1109,7 +1108,6 @@ break
 
   //
   case 'anime':
-  case 'yaoi':
   case 'jeager':
 if (!isRegister) return reply(mess.only.daftarB)
 
@@ -1127,7 +1125,7 @@ n = JSON.parse(JSON.stringify(data));
 nimek = n[Math.floor(Math.random() * n.length)];
 pok = await getBuffer(nimek)
 Lxa.sendMessage(from, pok, image, {
-  quoted: mek, caption: `Mr.Pato-Bot`
+  quoted: mek, caption: `Bamby te domina`
 })
 
 break
@@ -1152,7 +1150,7 @@ method: 'get'
   nimek = n[Math.floor(Math.random() * n.length)];
   pok = await getBuffer(nimek)
   Lxa.sendMessage(from, pok, image, {
-quoted: mek, caption: `Mr.Pato-Bot`
+quoted: mek, caption: `Bamby te domina`
   })
   
   } catch {
@@ -1182,7 +1180,7 @@ method: 'get'
   nimek = n[Math.floor(Math.random() * n.length)];
   pok = await getBuffer(nimek)
   Lxa.sendMessage(from, pok, image, {
-quoted: mek, caption: `Mr.Pato-Bot`
+quoted: mek, caption: `Bamby te domina`
   })
   
   } catch {
@@ -1208,7 +1206,7 @@ method: 'get'
   nimek = n[Math.floor(Math.random() * n.length)];
   pok = await getBuffer(nimek)
   Lxa.sendMessage(from, pok, image, {
-quoted: mek, caption: `Mr.Pato-Bot`
+quoted: mek, caption: `Bamby te domina`
   })
   
   } catch {
@@ -1234,7 +1232,7 @@ method: 'get'
   nimek = n[Math.floor(Math.random() * n.length)];
   pok = await getBuffer(nimek)
   Lxa.sendMessage(from, pok, image, {
-quoted: mek, caption: `Mr.pato-Bot`
+quoted: mek, caption: `Bamby Te domina`
   })
   
   } catch {
@@ -2691,8 +2689,7 @@ mimetype: 'video/mp4', filename: `${anu.nameInfo}.mp4`, quoted: mek
 //--stiker maker
 				case 'stiker':
 				case 'sticker':
-				  case 's':
-				case 'st':
+				case 's':
 					if ((isMedia && !mek.message.videoMessage || isQuotedImage) && args.length == 0) {
 						const encmedia = isQuotedImage ? JSON.parse(JSON.stringify(mek).replace('quotedM','m')).message.extendedTextMessage.contextInfo : mek
 						const media = await Lxa.downloadAndSaveMediaMessage(encmedia)
@@ -2736,7 +2733,7 @@ mimetype: 'video/mp4', filename: `${anu.nameInfo}.mp4`, quoted: mek
 								console.log(`Error : ${err}`)
 								fs.unlinkSync(media)
 								tipe = media.endsWith('.mp4') ? 'video' : 'gif'
-								reply(`Poniedo huevo otra vez deja eso${tipe} ke stiker`)
+								reply(`Poniedo huevo otra vez deja eso${tipe}  como stiker`)
 							})
 							.on('end', function () {
 								console.log('Finish')
@@ -3029,7 +3026,7 @@ exec(`ffmpeg -i ${anum} ${ran}`, (err) => {
   if (err) return reply('Error al convertir el sticker en vídeo')
   buffer = fs.readFileSync(ran)
   Lxa.sendMessage(from, buffer, video, {
-quoted: mek, caption: 'Mr.Pato'
+quoted: mek, caption: 'Bamby te domina'
   })
   fs.unlinkSync(ran)
 })
@@ -3439,7 +3436,7 @@ reply(ind.satukos())
 						fs.unlinkSync(medimg)
 						if (err) return reply('No se pudo hacer :(')
 						buffer = fs.readFileSync(ran)
-						Lxa.sendMessage(from, buffer, image, {quoted: mek, caption: 'Mr.Pato-Bot'})
+						Lxa.sendMessage(from, buffer, image, {quoted: mek, caption: 'Bamby te dio tu foto'})
 						fs.unlinkSync(ran)
 					})
 					break
